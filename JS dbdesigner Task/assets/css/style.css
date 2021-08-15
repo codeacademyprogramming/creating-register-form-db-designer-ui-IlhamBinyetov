@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#menu {
+  width: 200px;
+  background: black;
+  position: fixed;
+  z-index: 100;
+}
+.menu-item {
+  padding: 15px;
+  color: white;
+}
+
+#menu .menu-item:hover {
+  background: #555;
+}
